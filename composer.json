@@ -1,16 +1,16 @@
 {
-    "name": "dotswan/filament-laravel-pulse",
-    "description": "",
+    "name": "ediazaro/filament-laravel-pulse",
+    "description": "A fork from dotswan/filament-laravel-pulse",
     "keywords": [
-        "dotswan",
+        "ediazaro",
         "laravel",
         "laravel-pulse",
         "filament-laravel-pulse"
     ],
-    "homepage": "https://github.com/dotswan/filament-laravel-pulse",
+    "homepage": "https://github.com/ediazaro/filament-laravel-pulse",
     "support": {
-        "issues": "https://github.com/dotswan/filament-laravel-pulse/issues",
-        "source": "https://github.com/dotswan/filament-laravel-pulse"
+        "issues": "https://github.com/ediazaro/filament-laravel-pulse/issues",
+        "source": "https://github.com/ediazaro/filament-laravel-pulse"
     },
     "license": "MIT",
     "authors": [
@@ -22,13 +22,13 @@
     ],
     "require": {
         "php": "^8.2",
-        "filament/filament": "^3.0",
+        "filament/filament": "^4.0",
         "spatie/laravel-package-tools": "^1.15.0",
         "illuminate/contracts": "^10.0 || ^11.0 || ^12.0",
         "laravel/pulse": "^1.2.3"
     },
     "require-dev": {
-        "laravel/pint": "^1.0",
+        "laravel/pint": "^1.0 || ^2.0",
         "nunomaduro/collision": "^7.9",
         "nunomaduro/larastan": "^2.0.1",
         "orchestra/testbench": "^8.0 || ^10.0",
@@ -36,8 +36,8 @@
         "pestphp/pest-plugin-arch": "^2.0 || ^3.0",
         "pestphp/pest-plugin-laravel": "^2.0 || ^3.1",
         "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan-deprecation-rules": "^1.0 || ^2.0",
-        "phpstan/phpstan-phpunit": "^1.0 || ^2.0"
+        "phpstan/phpstan-deprecation-rules": "^1.0 || ^2.0 || ^3.0",
+        "phpstan/phpstan-phpunit": "^1.0 || ^2.0 || ^3.0"
     },
     "autoload": {
         "psr-4": {

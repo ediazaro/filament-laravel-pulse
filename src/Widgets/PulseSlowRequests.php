@@ -8,7 +8,7 @@ use Filament\Widgets\Widget;
 
 class PulseSlowRequests extends Widget
 {
-    protected static string $view = 'filament-laravel-pulse::widgets.pulse-slow-requests';
+    protected string $view = 'filament-laravel-pulse::widgets.pulse-slow-requests';
 
     protected string|int|array $cols;
 

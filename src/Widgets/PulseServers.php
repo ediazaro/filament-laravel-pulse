@@ -8,7 +8,7 @@ use Filament\Widgets\Widget;
 
 class PulseServers extends Widget
 {
-    protected static string $view = 'filament-laravel-pulse::widgets.pulse-servers';
+    protected string $view = 'filament-laravel-pulse::widgets.pulse-servers';
 
     protected string|int|array $cols;
 

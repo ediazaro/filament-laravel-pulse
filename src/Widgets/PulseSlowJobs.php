@@ -8,7 +8,7 @@ use Filament\Widgets\Widget;
 
 class PulseSlowJobs extends Widget
 {
-    protected static string $view = 'filament-laravel-pulse::widgets.pulse-slow-jobs';
+    protected string $view = 'filament-laravel-pulse::widgets.pulse-slow-jobs';
 
     protected string|int|array $cols;
 

@@ -8,7 +8,7 @@ use Filament\Widgets\Widget;
 
 class PulseCache extends Widget
 {
-    protected static string $view = 'filament-laravel-pulse::widgets.pulse-cache';
+    protected string $view = 'filament-laravel-pulse::widgets.pulse-cache';
 
     protected string|int|array $cols;
 

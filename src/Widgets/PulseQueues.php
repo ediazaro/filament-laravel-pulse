@@ -8,7 +8,7 @@ use Filament\Widgets\Widget;
 
 class PulseQueues extends Widget
 {
-    protected static string $view = 'filament-laravel-pulse::widgets.pulse-queues';
+    protected string $view = 'filament-laravel-pulse::widgets.pulse-queues';
 
     protected string|int|array $cols;
 

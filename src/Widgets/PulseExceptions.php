@@ -8,7 +8,7 @@ use Filament\Widgets\Widget;
 
 class PulseExceptions extends Widget
 {
-    protected static string $view = 'filament-laravel-pulse::widgets.pulse-exceptions';
+    protected string $view = 'filament-laravel-pulse::widgets.pulse-exceptions';
 
     protected string|int|array $cols;
 
